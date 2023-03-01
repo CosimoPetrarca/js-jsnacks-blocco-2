@@ -5,7 +5,7 @@
 let somma = 0;
 
 for (let i = 0; i < 5; i++) {
-  let numero = parseInt(prompt("Inserisci un numero: "));
+  let numero = Number(prompt("Inserisci un numero: "));
   somma += numero;
 }
 
@@ -18,7 +18,7 @@ let somma2 = 0;
 let i = 0;
 
 while (i < 5) {
-  let numero2 = parseInt(prompt("Inserisci un numero: "));
+  let numero2 = Number(prompt("Inserisci un numero: "));
   somma2 += numero2;
   i++;
 }
